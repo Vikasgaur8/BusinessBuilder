@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/png" sizes="32x32"
+        href="/knowMorePage/assets/images/favicon (2).ico" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tanishq Property</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+   <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="header headerFontFamily">
+      <div class="logo">
+        <img src="images/logo1.png" alt="Logo" />
+      </div>
+      <!-- Hamburger Menu Icon -->
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle Navigation">
+        ☰
+      </button>
+      <!-- Horizontal Navigation Menu Overlay -->
+      <nav id="navMenu" class="horizontal-nav">
+        <ul class="ul">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="/knowMorePage/aboutUs.html">ABOUT US</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="knowMorePage/contact.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-extra-div" style="visibility: hidden;">MENU</div>
+    </header>
+    
+    
+
+
+    
+
+    <div class="slideshow-container">
+      <!-- Slide 1 -->
+      <div class="mySlides w3-animate-top">
+        <img src="images/a.jpg" style="width: 100%" />
+        <div class="overlay-content">
+          <h2 class="headerFontFamily" style="font-weight: 600;">Welcome to Tanishq Property</h2>
+          <!-- <button class="slide-button">Learn More</button> -->
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="mySlides w3-animate-bottom">
+        <img src="images/b.jpg" style="width: 100%" />
+        <div class="overlay-content">
+          <h2 class="headerFontFamily" style="font-weight: 600;">Discover Your Dream Home</h2>
+          <!-- <button class="slide-button headerFontFamily">Explore</button> -->
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="mySlides w3-animate-top">
+        <img src="images/c.jpg" style="width: 100%" />
+        <div class="overlay-content">
+          <h2 class="headerFontFamily" style="font-weight: 600;">Find the Perfect Place for You</h2>
+          <!-- <button class="slide-button headerFontFamily">Get Started</button> -->
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="mySlides w3-animate-bottom">
+        <img src="images/d.jpg" style="width: 100%" />
+        <div class="overlay-content">
+          <h2 class="headerFontFamily" style="font-weight: 600;">Trusted by Many, Loved by All</h2>
+          <!-- <button class="slide-button headerFontFamily">Join Us</button> -->
+        </div>
+      </div>
+    </div>
+
+   
+    
+    <section class="services-section" id="services">
+        <h2 class="section-title headerFontFamily headingFonts">OUR<span class="headerFontFamily" style="color:#eceff3;"> SERVICES</span></h2>
+      <div class="services-container">
+        <div class="service-box animate-left">
+          <h3 class="headerFontFamily" style="font-size: 18px; letter-spacing: 3px; text-transform: uppercase;">
+            Buying & Selling</h3>
+          <p>
+            Whether you’re buying your dream home or selling an investment property, we offer expert guidance every step of the way. Our team handles everything from property searches and negotiations to paperwork and closing.
+          </p>
+          <img src="images/service1.jpg" alt="Real Estate Consulting" />
+        </div>
+
+        <div class="service-box animate-left">
+          <h3 class="headerFontFamily"  style="font-size: 18px; letter-spacing: 3px; text-transform: uppercase;">Rentals</h3>
+          <p style="white-space: normal; overflow: visible; text-overflow: clip;">
+            We offer a wide range of rental properties to meet your needs. Whether you’re looking for a residential rental or a commercial lease, we have options that suit different budgets and preferences.
+          </p>
+          
+          <img src="images/service2.jpg" alt="NRI Service" />
+        </div>
+
+        <div class="service-box animate-left">
+          <h3 class="headerFontFamily"  style="font-size: 18px; text-transform: uppercase;">Investment Consultation</h3>
+          <p>
+            We help you make informed decisions when it comes to property investments. Whether you’re seeking high-growth areas or lucrative commercial spaces, our insights can guide your investments in the right direction.
+          </p>
+          <img src="images/service3.jpg" alt="Legal Consulting" />
+        </div>
+      </div>
+    
+
+    
+    </section>
+ 
+    <section class="properties-section">
+      <!-- <h2 class="section-title headerFontFamily headingFonts">TOP PROPERTIES IN DELHI NCR</h2> -->
+       <h2 class="section-title headerFontFamily headingFonts">TOP <span class="headerFontFamily" style="color:#eceff3;">PROPERTIES IN DELHI NCR</span></h2>
+      <!-- <div class="section-divider">
+        <span class="line"></span>
+        <span class="dot">•</span>
+        <span class="line"></span>
+      </div> -->
+      <!-- Divider with line and dot -->
+
+      <div class="property-tabs">
+        <!-- <button class="tab-button headerFontFamily" id="featured" style="font-size: 13px; line-height: 1.8em;  letter-spacing: 1.5px;">Featured</button> -->
+        <button disabled class="tab-button headerFontFamily active" id="residential" style="font-size: 13px; line-height: 1.8em;  letter-spacing: 1.5px;">Residential</button>
+        <button disabled class="tab-button headerFontFamily" id="commercial" style="font-size: 13px; line-height: 1.8em;  letter-spacing: 1.5px; display: none;">Commercial</button>
+      </div>
+      <div class="card-container" id="cardContainer"></div>
+    </section>
+
+     <!-- Builder Partner Section -->
+ <section class="builder-partners-section">
+      <h2 class="section-title headerFontFamily headingFonts">Builder <span class="headerFontFamily">Partner</span></h2>
+      <!-- <div class="section-divider">
+        <span class="line"></span>
+        <span class="dot">•</span>
+        <span class="line"></span>
+      </div> -->
+      <!-- Divider with line and dot -->
+      <div class="logos-container">
+        <div class="logo-item">
+          <img src="images/logo1.png" alt="Central Park Logo" />
+        </div>
+        <div class="logo-item">
+          <img src="images/logo1.png" alt="DLF Logo" />
+        </div>
+        <div class="logo-item">
+          <img src="images/logo1.png" alt="Elan Logo" />
+        </div>
+        <div class="logo-item">
+          <img src="images/logo1.png" alt="Trump Towers Logo" />
+        </div>
+      </div>
+    </section>
+
+ <!-- <section class="about-us-section" id="about">
+      <h2 class="section-title headerFontFamily headingFonts">About Us</span></h2>
+      <div class="about-us-content">
+        <div class="about-text">
+          <p class="about-paragraph">
+            Welcome to <strong>Tanishq Property</strong>, your trusted guide to finding the perfect property in one of India’s most dynamic and rapidly developing cities. We are a professional real estate agency with a team of passionate, dedicated experts committed to delivering exceptional results for all your real estate needs. Whether you're looking to buy, sell, rent, or invest in properties, we provide personalized, client-focused services to ensure your journey is seamless, transparent, and ultimately rewarding.
+          </p>
+          <p>
+            <strong>Who We Are</strong>
+          </p>
+          <p class="about-paragraph">
+            At Tanishq Property Gurgaon, we believe in the power of relationships and trust. Our strong team of experienced real estate professionals is driven by a shared commitment to offer the highest standards of service. We take the time to understand your needs and offer tailor-made solutions that align with your property goals. From residential homes and luxury apartments to commercial spaces and investment opportunities, we have a vast range of options to cater to every requirement.
+          </p>
+          <p class="about-paragraph">
+            Our team is not just skilled but passionate about real estate. With years of expertise in the Gurgaon market, we are equipped to handle even the most complex real estate transactions, guiding you through every step with confidence
+          </p>
+          <p class="about-paragraph">
+            <strong>Our Core Values</strong>
+          </p>
+          <p class="about-paragraph">
+            <strong>Expert Knowledge</strong>: With an in-depth understanding of the Gurgaon property market, our team is well-equipped to provide valuable insights and advice, ensuring you make informed decisions.
+          </p>
+          <p class="about-paragraph">
+            <strong>Integrity and Transparency</strong>: We operate with honesty and transparency at the core of everything we do, ensuring that our clients always feel secure and well-informed throughout the process.
+          </p>
+          <p class="about-paragraph">
+            <strong>Client-Centric Focus</strong>: We prioritize your needs and strive to deliver solutions that not only meet but exceed your expectations.
+          </p>
+          <p class="about-paragraph">
+            <strong>Excellence</strong>: We are committed to maintaining the highest standards in all aspects of our service, from property sourcing to negotiation and documentation
+          </p>
+
+          <button class="schedule-visit-btn" onclick="navigateToPage()">Schedule Visit</button>
+        </div>
+        <div class="about-image">
+          <img src="images/about/about-main.jfif" alt="About Us Image" />
+        </div>
+        
+      </div>
+    </section> -->
+
+<section class="about-us-section" id="about">
+  <h2 class="section-title headerFontFamily headingFonts">About Us</h2>
+  <div class="about-us-content">
+    <div class="about-text">
+      <p class="about-paragraph">
+        Welcome to <strong>Tanishq Property</strong>, your trusted real estate partner in Gurgaon. We specialize in <strong>buying, selling, renting, and investing</strong> in properties with a focus on seamless, transparent, and client-centered services.
+      </p>
+      <p><strong>Who We Are</strong></p>
+      <p class="about-paragraph">
+        Our dedicated team offers <strong>expert knowledge</strong>, <strong>integrity</strong>, and <strong>personalized solutions</strong> to help you find the perfect property—whether it’s a <strong>luxury apartment, residential home, or commercial space</strong>.
+      </p>
+      <p><strong>Our Core Values</strong></p>
+      <ul class="about-paragraph">
+        <li><strong>Expert Knowledge</strong>: In-depth market insights for informed decisions.</li>
+        <li><strong>Integrity & Transparency</strong>: Honest and trustworthy guidance.</li>
+        <li><strong>Client-Centric Focus</strong>: Tailored solutions exceeding expectations.</li>
+        <li><strong>Excellence</strong>: High standards in property sourcing & transactions.</li>
+      </ul>
+      <button class="schedule-visit-btn" onclick="navigateToPage()">Schedule Visit</button>
+    </div>
+    <div class="about-image">
+      <img src="images/about/about-main.jfif" alt="About Us Image" />
+    </div>
+  </div>
+</section>
+
+
+    <section class="testimonials-section">
+      <h2 class="section-title headerFontFamily headingFonts">Our Happy Clients<span class="headerFontFamily" style="color:#eceff3; "> Say It Best! </span></h2>
+      <!-- <div class="section-divider">
+        <span class="line"></span>
+        <span class="dot">•</span>
+        <span class="line"></span>
+      </div> -->
+      <!--     
+        <div class="testimonials">
+            <div class="testimonial active" data-index="0">
+                <p>"This product changed my life! Highly recommend to everyone."</p>
+                <span class="customer-name">- Jane Doe</span>
+            </div>
+            <div class="testimonial" data-index="1">
+                <p>"Excellent service and quality. Couldn't be happier!"</p>
+                <span class="customer-name">- John Smith</span>
+            </div>
+        </div> -->
+
+      <!-- <div class="Cslider-container">
+        <div class="Cslider" id="Cslider">
+          <div class="Ccard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              style="background-color: yellow"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <div class="customerSectionBox">
+              <div class="Cquote">
+                <p class="">
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  sometimes emotional decision, like buying a home you want
+                  someone who will be a good listener,a strong negotiator and
+                  who is respected his/her peers. Tanishq Property meets all
+                  expectations.
+                </p>
+            </div>
+            <div class="customerName">ANJALI DOGRA</div>
+            </div>
+          </div>
+          
+           <div class="Ccard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              style="background-color: yellow"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <div class="customerSectionBox">
+              <div class="Cquote">
+                <p class="">
+                 Hi team, I really appreciate the services that are provided by Tanishq Property. The executives are really very kind and humble and always ready to help the client. I am so satisfied with their services that I am just free from all tensions and problems that come across while purchasing the dream home of mine.
+                </p>
+                <div class="customerName">NARENDRA YADAV</div>
+              </div>
+            </div>
+          </div>
+
+           <div class="Ccard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              style="background-color: yellow"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <div class="customerSectionBox">
+              <div class="Cquote">
+                <p class="">
+                 It was quite a Very good experience with the Tanishq Property. The sales person which I met is good he explained everything nicely. Also he is very responsive. overall its was very nice.
+                </p>
+                <div class="customerName">BIJENDER SHARMA</div>
+              </div>
+            </div>
+          </div>
+
+           <div class="Ccard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              style="background-color: yellow"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <div class="customerSectionBox">
+              <div class="Cquote">
+                <p class="">
+                 I have met with excutive of Tanishq Property. It was nice meeting with him and he gave very nice "Comparison and Growth of my Investment". Overall i am completely satisfy with the service of Tanishq Property as well as the Executive. Thanks
+                </p>
+                <div class="customerName">UPENDER SINGH</div>
+              </div>
+            </div>
+          </div>
+
+           <div class="Ccard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              style="background-color: yellow"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <div class="customerSectionBox">
+              <div class="Cquote">
+                <p class="">
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  sometimes emotional decision, like buying a home you want
+                  someone who will be a good listener,a strong negotiator and
+                  who is respected his/her peers. Tanishq Property meets all
+                  expectations.
+                </p>
+                <div class="customerName">ANJALI DOGRA</div>
+              </div>
+            </div>
+          </div>
+
+           <div class="Ccard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              style="background-color: yellow"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <div class="customerSectionBox">
+              <div class="Cquote">
+                <p class="">
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  sometimes emotional decision, like buying a home you want
+                  someone who will be a good listener,a strong negotiator and
+                  who is respected his/her peers. Tanishq Property meets all
+                  expectations.
+                </p>
+                <div class="customerName">ANJALI DOGRA</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> -->
+      
+
+      <div class="slider-container">
+        <div class="slider">
+            <div class="Scard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <p class="Cquote" style="margin:35px 20px 45px 55px" >
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  sometimes 
+                </p>
+                <div class="customerName" style="margin:0 30px 20px 0">ANJALI DOGRA</div>
+            </div>
+             <div class="Scard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <p class="Cquote" style="margin:35px 20px 45px 55px" >
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  sometimes emotional decision, like buying a home you want
+                  someone
+                </p>
+                <div class="customerName" style="margin:0 30px 20px 0">ANJALI DOGRA</div>
+            </div> <div class="Scard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <p class="Cquote" style="margin:35px 20px 45px 55px" >
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  someti
+                </p>
+                <div class="customerName" style="margin:0 30px 20px 0">ANJALI DOGRA</div>
+            </div> <div class="Scard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <p class="Cquote" style="margin:35px 20px 45px 55px" >
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  som.
+                </p>
+                <div class="customerName" style="margin:0 30px 20px 0">ANJALI DOGRA</div>
+            </div> <div class="Scard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <p class="Cquote" style="margin:35px 20px 45px 55px" >
+                  Tanishq Property is the perfect balance between competitiveness
+                  and l
+                </p>
+                <div class="customerName" style="margin:0 30px 20px 0">ANJALI DOGRA</div>
+            </div> <div class="Scard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <p class="Cquote" style="margin:35px 20px 45px 55px" >
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  sometimes
+                </p>
+                <div class="customerName" style="margin:0 30px 20px 0">ANJALI DOGRA</div>
+            </div> <div class="Scard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <p class="Cquote" style="margin:35px 20px 45px 55px" >
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  sometimes emotional decision, like buying a home you want
+                  someone
+                </p>
+                <div class="customerName" style="margin:0 30px 20px 0">ANJALI DOGRA</div>
+            </div> <div class="Scard">
+            <svg
+              class="quoteIcon"
+              fill="#000000"
+              width="57px"
+              height="44px"
+              viewBox="-75 -50 700 700"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+              />
+            </svg>
+            <p class="Cquote" style="margin:35px 20px 45px 55px" >
+                  Tanishq Property is the perfect balance between competitiveness
+                  and listener. When you're making a big financial, personal and
+                  sometimes
+                </p>
+                <div class="customerName" style="margin:0 30px 20px 0">ANJALI DOGRA</div>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="control-btn prev">←</button>
+            <button class="control-btn next">→</button>
+        </div>
+        <div class="dots"></div>
+    </div>
+
+    </section>
+
+   
+   
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-overlay">
+        <div class="footer-content">
+          <!-- Company Information -->
+          <div class="company-info">
+            <img
+              src="/knowMorePage/assets/images/logo.png"
+              alt="Tanishq Property Logo"
+              class="footer-logo"
+            />
+            <p class="footerText">
+              Established in 2008, Tanishq Property is a RERA-registered real estate firm renowned for delivering exceptional services to its clients. Backed by a team of dedicated professionals, we prioritize excellence and customer satisfaction in every transaction. Trusted by leading brands like DLF, Emaar, Birla, and M3M, we specialize in providing tailored solutions in portfolio management, legal assistance, real estate consulting, and loan facilitation, ensuring a seamless and rewarding real estate experience.
+            </p>
+          </div>
+
+          <!-- Divider -->
+          <div class="divider"></div>
+
+          <!-- Social Links -->
+          <div class="social-links">
+             <h3 class="headerFontFamily" style="color: #fff; font-size: 20px; letter-spacing: 3px; text-transform: uppercase;">Social Links</h3>
+            <ul>
+              <li><a href="https://www.instagram.com/tanishqpropertyy/profilecard/?igsh=MngyaDhkaGp2c3k1" target="_blank">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/in/tanishq-properties-12252333b/" target="_blank">LinkedIn</a></li>
+            </ul>
+          </div>
+
+          <!-- Divider -->
+          <div class="divider"></div>
+
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <h3 class="headerFontFamily" style="color: #fff; font-size: 20px; letter-spacing: 3px; text-transform: uppercase;">Contact Us</h3>
+            <p>
+             <strong> Tanishq Property Pvt. Ltd.</strong><br />
+             C-295 G.F, Opposite Rail Vihar, Sushant Lok III, Sector 57, Gurugram, Haryana 122413
+            </p>
+            <p class="contact-infoMarginPaddingB"><strong>Phone:</strong> +91 96507 70933</p>
+            <p class="contact-infoMarginPaddingB"><strong>Email:</strong> Tanishkproperty@gmail.com</p>
+            <p class="contact-infoMarginPaddingB">
+              <strong>Web:</strong>
+              <a href="https://tanishkproperty.com/" target="_blank"
+                >https://tanishkproperty.com/</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Copyright Footer Section -->
+    <div class="copyright-footer">
+      <p>© Copyright 2025 - Tanishq Property. ALL RIGHTS RESERVED.</p>
+      <p>
+        WEBSITE DESIGNED & DEVELOPMENT BY
+         <a href="https://www.linkedin.com/in/aman-sharma-33ba2719a/" target="_blank"><span class="id-color">ASHA NEXT TECHNOLOGIES</span></a>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
