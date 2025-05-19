@@ -4936,6 +4936,8 @@ a:hover,
 .picframe {
   position: relative;
   overflow: hidden;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .picframe img {
@@ -7743,6 +7745,8 @@ i.btn-action-hide {
   height: 180px;
   width: 100%;
   border: 1px solid #ccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .properties-detail {
@@ -7928,7 +7932,7 @@ i.btn-action-hide {
   font-size: 20px;
   color: #ebeef2;
   text-transform: uppercase;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   letter-spacing: 1px;
   display: inline-block;
   /* font-family: "Dosis", Arial, Helvetica, sans-serif; */
@@ -8582,6 +8586,8 @@ h1.custom {
   position: relative;
   border: 1px solid #fff;
   border-top: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .projectNew {
