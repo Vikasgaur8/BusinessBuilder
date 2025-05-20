@@ -8207,6 +8207,16 @@ header.header-mobile.clone.smaller > div {
   -webkit-order: 2;
 }
 
+.knowMorePageheadImage{
+    width: 280px;
+  }
+
+.knowMorePageheadText{
+  color: #FFF; 
+  font-size: 26px; 
+  text-align: center;
+}
+
 .banner-left .project_logo {
   max-height: 100px;
   margin-bottom: 20px;
@@ -9298,11 +9308,6 @@ h1.custom {
   .s003 form .inner-form .input-field.third-wrap {
     margin-bottom: 0;
     width: 100%;
-  }
-
-  .project_logo{
-    width: 280px;
-    height: 100px;
   }
 
   .banner-left .project_logo {
