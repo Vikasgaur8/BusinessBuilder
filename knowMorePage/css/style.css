@@ -1199,6 +1199,14 @@ footer {
   margin-bottom: 30px;
 }
 
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  /* margin: 0 auto; */
+}
+
 footer h3,
 .de_light footer h3 {
   color: #fff;
@@ -9168,6 +9176,12 @@ h1.custom {
   padding: 15px 15px;
 }
 
+.footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
 .someInformation{
   display: block;
 }
@@ -9284,6 +9298,11 @@ h1.custom {
   .s003 form .inner-form .input-field.third-wrap {
     margin-bottom: 0;
     width: 100%;
+  }
+
+  .project_logo{
+    width: 280px;
+    height: 100px;
   }
 
   .banner-left .project_logo {
