@@ -134,6 +134,15 @@ const residential = [
     // price: "On Request",
     link: "/knowMorePage/signatureGlobalTwinTower.html",
   },
+  {
+    image: "images/images/dlfFullimg.jpg",
+    image2: "images/images/dlfLOgo.png",
+    name: "DLF",
+    type: "Commercial",
+    location: "DLF City Phase – III, Gurugram",
+    // price: "On Request",
+    link: "/knowMorePage/dlf.html",
+  },
 ];
 
 const properties = [
@@ -223,6 +232,15 @@ const properties = [
     location: "Sector 84, Gurugram",
     // price: "On Request",
     link: "/knowMorePage/signatureGlobalTwinTower.html",
+  },
+  {
+    image: "images/images/dlfFullimg.jpg",
+    image2: "images/images/dlfLOgo.png",
+    name: "DLF",
+    type: "Residential",
+    location: "DLF City Phase – III, Gurugram",
+    // price: "On Request",
+    link: "/knowMorePage/dlf.html",
   },
 ];
 
